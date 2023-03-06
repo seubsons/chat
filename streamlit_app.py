@@ -19,7 +19,7 @@ def generate_response(prompt):
     
     return message
 
-st.title('chatBot openAI:)')
+st.title('golf chatBot openAI :)')
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
