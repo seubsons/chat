@@ -29,7 +29,7 @@ if 'past' not in st.session_state:
 
 def get_text():
     #input_text = st.text_input('You: ','Hello, How are you?', key='input')
-    input_text = st.text_input('You: ','Hello, How can you help me?', key='input')
+    input_text = st.text_input('You: ','Hello, can I ask you a question?', key='input')
     return input_text
 
 user_input = get_text()
