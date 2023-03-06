@@ -12,7 +12,7 @@ def generate_response(prompt):
         max_tokens=1024,
         n=1,
         stop=None,
-        temperature=0.5
+        temperature=0.3
     )
     
     message = response.choices[0].text
