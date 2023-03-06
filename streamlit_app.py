@@ -2,8 +2,7 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
-#openai.api_key = "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"
-openai.api_key = "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"
+openai.api_key = st.secrets['pass']
 
 def generate_response(prompt):
     
